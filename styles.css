@@ -34,10 +34,15 @@ ul {
   }
 
 
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: darkblue;
+}
 
-
-
-
+img {
+    max-width: 100%;
+}
 
 
 
