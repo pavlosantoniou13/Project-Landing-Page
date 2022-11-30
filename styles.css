@@ -8,10 +8,13 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Poppins ', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: white;  
+    text-align: center;
+    
 }
 
 .container {
@@ -28,6 +31,7 @@ img {
 
 .header-background {
     background: #1F2937;
+    color: white;  
 }
 
   .navbar {
@@ -84,4 +88,34 @@ img {
 
 
 
+.boxes img {
+     width: 100px;
+    height: 100px;
+}
 
+
+.box {
+    max-width: 200px;
+}
+
+.title {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}   
+
+.info {
+    max-width: 200px;
+}  
+  
